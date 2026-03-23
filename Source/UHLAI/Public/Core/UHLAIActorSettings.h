@@ -43,7 +43,7 @@ public:
     UFUNCTION(Category = "UHLActorSettings", BlueprintCallable, BlueprintNativeEvent)
     FTurnSettings GetTurnSettings() const;
     
-    UFUNCTION(Category = "UHLActorSettings", BlueprintCallable, BlueprintImplementableEvent)
+    UFUNCTION(Category = "UHLActorSettings", BlueprintCallable, BlueprintNativeEvent)
     FSizeSettings GetSizeSettings() const;
 /** ~IUHLActorSettings */
 };
